@@ -2,24 +2,15 @@ import React from 'react';
 import './styles.css';
 
 class LessonOne extends React.Component{
-    constructor(){
-        super();
-    }
+
 
     render(){
         return (
-          <div className="App">
+          <div>
               <p>
-                Edit <code>src/App.js</code> and save to reload.
+               {this.props.name}
               </p>
-              <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Learn React
-              </a>
+<button className="buttonStyle">button one</button>
           </div>
         );
       }
